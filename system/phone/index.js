@@ -1,0 +1,22 @@
+$(function () {
+    $('#main_ul').children('li').last().css('margin-bottom','80px');
+    $('.tel_li').click(function(){
+        $('#tc').slideDown();
+        $('#tc_lxr').val($(this).children('div').children('p').text());
+        $('#tc_tel').val($(this).children('div').children('span').text());
+        $('#qx').css('display','block');
+    });
+    $('#add').click(function(){
+        $('.tc_p2').val('');
+        $('#tc').slideDown();
+        $('#qx').css('display','block');
+    });
+    $('#qx').click(function(){
+        $('#tc').slideUp();
+        $(this).css('display','none');
+        $('#tc_xg').css('display','none');
+    });
+    $('.tc_p2').click(function(){
+        $('#tc_xg').css('display','block');
+    });
+})

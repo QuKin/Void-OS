@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body { scroll-behavior:smooth; }
+
+#bj{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -100;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li {
+    list-style: none;
+
+    height: 3.5rem;
+    background: #89cff02e;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    padding-left: 0.8rem;
+}
+
+p{
+    color: white;
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+span,input[type='text']{
+    display: none;
+}
+
+input[type='submit']{
+    float: right;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 15px;
+    margin-right: -24px;
+    background: transparent;
+    border: none;
+}
+
+img{
+    float: right;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+.fix{
+    position: fixed;
+}
+
+.rel{
+    position: relative;
+}
+
+.abs{
+    position: absolute;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    padding: 0px 1.5rem;
+    z-index: 2;
+    background: #182128;
+    top: 0;
+}
+
+#head_p{
+    line-height: 60px;
+    font-size: 1.1rem;
+}
+
+main{
+    margin-top: 80px;
+    position: absolute;
+    left: 1.5rem;
+    right: 1.5rem;
+}
+
+li div{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+li p{
+    float: left;
+    line-height: 3.5rem;
+    font-size: 1.3rem;
+}
+
+#li1_tp{
+    background: url('http://s1.music.126.net/style/favicon.ico?v20180823') no-repeat;
+    background-size: 100% 100%;
+}
+
+#li2_tp{
+    background: url('http://mat1.gtimg.com/www/icon/favicon2.ico') no-repeat;
+    background-size: 100% 100%;
+}
+
+#li3_tp{
+    background: url('https://g.csdnimg.cn/static/logo/favicon.ico') no-repeat;
+    background-size: 100% 100%;
+}
+
+#li4_tp{
+    background: url('//www.baidu.com/img/baidu_85beaf5496f291521eb75ba38eacbd87.svg') no-repeat;
+    background-size: 100% 100%;
+}
+
+#li5 p{
+    font-size: 0.9rem;
+}
+
+#li5_tp{
+    background: url('../app_img/Google.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+#li6_tp{
+    background: url('../app_img/step_black.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+#li7_tp{
+    background: url('../app_img/ball_ball.png') no-repeat;
+    background-size: 100% 100%;
+}

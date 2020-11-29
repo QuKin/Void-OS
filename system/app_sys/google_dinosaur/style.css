@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul li{
+    list-style-type: none;
+}
+div,footer{
+    background: url('./img.png') no-repeat;
+}
+#all{
+    width: 600px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    background: url();
+    position: relative;
+    overflow:hidden;
+}
+#fs{
+    width: 21px;
+    height: 12px;
+    background-position: -754px -1px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#fs_wz{
+    position: absolute;
+    width: 80px;
+    height: 12px;
+    background: url('');
+    top: 10px;
+    left: 33px;
+    /* border: 1px solid; */
+}
+#fs_wz p{
+    font-size: 12px;
+    margin-top: -2px;
+    margin-right: 5px;
+    text-align: right;
+    font-weight: bolder;
+}
+#kl{
+    width: 46px;
+    height: 50px;
+    background-position: -847px -1px;
+    position: absolute;
+    bottom: 8px;
+    left: 50px;
+}
+#gameOver{
+    width: 193px;
+    height: 15px;
+    background-position: -653px -13px;
+    position: absolute;
+    top: 35px;
+    left: 37%;
+    display: none;
+}
+#cx{
+    width: 40px;
+    height: 33px;
+    background-position: -1px -1px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    cursor: pointer;
+    display: none;
+}
+#cx2{
+    width: 40px;
+    height: 41px;
+    background-position: -544px -1px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    cursor: pointer;
+}
+#cx2_s{
+    background: url();
+    width: 0px;
+    height: 0px;
+    border: 12px solid transparent;
+    border-left-color: #929292;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+footer{
+    width: 100%;
+    height: 15px;
+    background-position: -1px -54px;
+    position: absolute;
+    bottom: 0;
+}
+.zd{
+    width: 18px;
+    height: 36px;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 100px;
+    left: 610px;
+    background-position: -228px -1px;
+}
+.yun{
+    width: 46px;
+    height: 20px;
+    background-position: -90px -1px;
+}
+.yun1{
+    position: absolute;
+    left: 550px;
+    top: 10px;
+}
+.yun2{
+    position: absolute;
+    top: 25px;
+    left: 500px;
+}
+.yun3{
+    position: absolute;
+    top: 20px;
+    left: 450px;
+}
+nav{
+    border: 1px solid black;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+button{
+    width: 48%;
+    height: 100%;
+}
+#down{
+    float: right;
+}
+@media screen and (max-width:599px){
+    #all{width: 99%;}
+    #gameOver{left: 30%;}
+}

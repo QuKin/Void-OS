@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="all" onclick="dj(event)">
+        <main id="main"><p>QuKin</p></main>
+    </div>
+    <div id="tg">
+        <h3>点击次数：</h3>
+        <span id="djcs"></span>
+    </div>
+    <ul id="ts">
+        <span class="wz">球体:</span>
+        <li class="wz2"><span id="hui">灰球:</span>每秒增加一个，吃了可以增加5px</li>
+        <li class="wz2"><span id="red">红球:</span>五秒增加一个，吃了会减少5px</li>
+        <li class="wz2"><span id="blue">蓝球:</span>十秒增加一个，吃了会减少20px</li>
+        <li class="wz2"><span id="green">绿球:</span>按空格可以吐出来，不过不能一次性吃，要不然只能增加5px</li>
+        <span class="wz">规则:</span>
+        <li class="wz2">回车:按下回车可以在中间分裂，不过都会缩小10px</li>
+        <li class="wz2">上下左右键:是移动键，越大会越变慢，最小的速度保持在10</li>
+        <li class="wz2">5秒会减去3px,直到小于45</li>
+        <li class="wz2">可以用鼠标点击来移动位置，如果吃到，就会暂停不会继续移动</li>
+        <li class="wz2">当球到达450px时，获得成功</li>
+    </ul>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
